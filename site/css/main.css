@@ -1,0 +1,67 @@
+body {
+    font-family: 'Gentium Book Basic', serif;
+    background-color: white;
+    color: #222;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 0.1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+header, section {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4em;
+}
+
+header p {
+    font-size: 1.4em;
+    font-family: 'Gentium Book Basic', serif;
+    font-style: italic;
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 0.2em;
+    color: #203945;
+}
+
+header p a {
+    color: #203945;
+}
+
+header a:visited {
+    color: #203945;
+}
+
+section p, section a {
+    font-size: 1.3em;
+    color: #203945;
+    line-height: 1.3em;
+}
+
+a {
+    color: #203945;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+a:visited {
+    color: #203945;
+}
+
+header a:hover, a:hover {
+    transition: border-bottom 0.4s ease-out, color 0.4s ease-out;
+    border-bottom: 2px solid #C0392B;
+    color: #C0392B;
+}
