@@ -52,7 +52,8 @@ h1 {
   margin-bottom: 0.1em; }
 
 h3 {
-  margin-top: 1.5em; }
+  margin-top: 1.5em;
+  margin-bottom: 0.5em; }
 
 header, section {
   width: 80%;
@@ -64,6 +65,7 @@ header p {
   margin-bottom: 0.2em; }
 
 section p, section a {
+  margin: 0em 0 1em 0;
   line-height: 1.3em; }
 
 a {
