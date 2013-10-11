@@ -37,6 +37,9 @@ section p, section a {
   color: #203945;
   line-height: 1.3em; }
 
+.new {
+  color: #e67e22; }
+
 /* Layout extends */
 header a:hover, section p a:hover, section a a:hover, a {
   -webkit-transition: border-bottom 0.4s ease-out, color 0.4s ease-out;

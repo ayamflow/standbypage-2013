@@ -1,0 +1,51 @@
+/* Layout extends */
+%link-hover-transition {
+    @include transition(border-bottom 0.4s ease-out, color 0.4s ease-out);
+    border-bottom: 2px solid $hover-color;
+}
+
+/* Layout settings */
+html, body {
+    background-color: white;
+}
+
+h1 {
+    margin-bottom: 0.1em;
+}
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+header, section {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+header {
+    p {
+        margin: 0;
+        margin-bottom: 0.2em;
+    }
+
+    a:hover {
+        @extend %link-hover-transition;
+    }
+}
+
+section p, section a {
+    a:hover {
+        @extend %link-hover-transition;
+    }
+    margin: 0em 0 1em 0;
+    line-height: 1.3em;
+}
+
+a {
+    @extend %link-hover-transition;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+

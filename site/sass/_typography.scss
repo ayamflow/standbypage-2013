@@ -1,0 +1,65 @@
+/* Typography extends */
+%gentium-font {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+%open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+%link-colors {
+    color: $text-color;
+
+    &:visited {
+        color: $text-color;
+    }
+    &:hover {
+        color: $hover-color;
+    }
+}
+
+/* Typography settings */
+body {
+    @extend %gentium-font;
+    color: $title-color;
+}
+
+h1 {
+    @extend %open-sans-font;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h3 {
+    @extend %open-sans-font;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header {
+    p {
+        @extend %gentium-font;
+        font-size: 1.4em;
+        font-style: italic;
+        font-weight: 200;
+        color: $text-color;
+    }
+}
+
+section {
+    & p, & a {
+        font-size: 1.3em;
+        color: $text-color;
+        line-height: 1.3em;
+    }
+}
+
+header p a, section p a {
+    @extend %link-colors;
+}
+
+.new {
+    color: $new-color;
+}
